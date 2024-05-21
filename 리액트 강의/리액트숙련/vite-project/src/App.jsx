@@ -1,12 +1,8 @@
 import React from "react";
-import GrandFather from "./components/GrandFather";
+import Router from "./shared/Router";
 
-const App = () => {
-  return (
-    <div>
-      <GrandFather />
-    </div>
-  );
-};
+function App() {
+  return <Router />;
+}
 
 export default App;
